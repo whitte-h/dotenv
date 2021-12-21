@@ -11,6 +11,8 @@ brew "imagemagick@6"
 brew "jq"
 # Utility for directing compilation
 brew "make"
+# Platform built on V8 to build network applications
+brew "node"
 # Manage multiple Node.js versions
 brew "nvm"
 # JavaScript package manager
@@ -43,6 +45,8 @@ cask "microsoft-auto-update"
 cask "microsoft-edge"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Administration and development platform for PostgreSQL
+cask "pgadmin4"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
