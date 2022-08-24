@@ -23,21 +23,33 @@ git clone https://github.com/xaeli/dotenv.git ~/.dotfiles
 # investigate install scripts and bootstrapping tools.
 
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+```
+
+```zsh
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ```
 
 4. Install Homebrew, followed by the software listed in the Brewfile.
 
+These could also be in an install script.
+
+### Install Homebrew
+
 ```zsh
-# These could also be in an install script.
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" |
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/whitte/.zprofile |
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 
-# Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#### Then pass in the Brewfile location...
 
-# Then pass in the Brewfile location...
+```zsh
 brew bundle --file ~/.dotfiles/Brewfile
+```
 
-# ...or move to the directory first.
+#### ...or move to the directory first.
+
+```zsh
 cd ~/.dotfiles && brew bundle
 ```
 
