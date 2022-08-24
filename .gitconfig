@@ -1,3 +1,8 @@
 [user]
-	email = 14059099+xaeli@users.noreply.github.com
-	name = Jorge Blanco
+	email = 14059099+whitte-h@users.noreply.github.com
+	name = Jorge Whitte
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
