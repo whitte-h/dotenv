@@ -3,39 +3,36 @@ tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "romkatv/powerlevel10k"
-# Get/set bluetooth power and discoverable state
-brew "blueutil"
-# Pack, ship and run any application as a lightweight container
-brew "docker"
+
+
+# Official Amazon AWS command-line interface
+brew "awscli"
+
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+
 # Fast and simple Node.js version manager
 brew "fnm"
-# Tools and libraries to manipulate images in many formats
-brew "imagemagick@6"
-# Lightweight and flexible command-line JSON processor
-brew "jq"
-# Network authentication protocol
-brew "krb5"
+
+# Distributed revision control system
+brew "git"
+
+
 # Utility for directing compilation
 brew "make"
-# Platform built on V8 to build network applications
-brew "node"
-# Manage multiple Node.js versions
-brew "nvm"
-# General-purpose scripting language
-brew "php"
-# Python version management
-brew "pyenv"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
+# Mac App Store command-line interface
+brew "mas"
+
+
+# Theme for zsh
+brew "powerlevel10k"
+
 # JavaScript package manager
 brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
-# A Zsh Theme
-brew "romkatv/powerlevel10k/powerlevel10k"
-# Password manager that keeps all passwords secure behind one password
-cask "1password"
 # Application launcher and productivity software
 cask "alfred"
 # Tools for building Android applications
@@ -44,32 +41,20 @@ cask "android-studio"
 cask "canva"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
+# App to build and share containerised applications and microservices
 cask "docker"
-# Tool to hide status bar icons
-cask "dozer"
-# Productivity app
-cask "dropzone"
 # Launcher for *Epic Games* games
 cask "epic-games"
-# Collaborative team software
-cask "figma"
 # UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
 cask "google-chrome"
-# Set of tools to manage resources and applications hosted on Google Cloud
-cask "google-cloud-sdk"
 # Client for the Google Drive storage service
 cask "google-drive"
-# GraphQL IDE for better development workflows
-cask "graphql-playground"
 # Menu bar application that displays the CPU speed limit due to thermal issues
 cask "hot"
-# HTTP and GraphQL Client
-cask "insomnia"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Menu bar calendar
@@ -78,6 +63,12 @@ cask "itsycal"
 cask "microsoft-auto-update"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Interactive tool for analyzing MongoDB data
+cask "mongodb-compass"
+# Open-source software for live streaming and screen recording
+cask "obs"
+# Collaboration platform for API development
+cask "postman"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
@@ -96,7 +87,56 @@ cask "todoist"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
-# Desktop client for WhatsApp
+# Native desktop client for WhatsApp
 cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Amphetamine", id: 937984704
+mas "CleanMyMac X", id: 1339170533
+mas "DaVinci Resolve", id: 571213070
+mas "GarageBand", id: 682658836
+mas "GIPHY CAPTURE", id: 668208984
+mas "Hidden Bar", id: 1452453066
+mas "Keynote", id: 409183694
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Okta Verify", id: 490179405
+mas "Overlap", id: 1516950324
+mas "Pages", id: 409201541
+mas "Red Lines Tools", id: 1469400117
+mas "Transporter", id: 1450874784
+mas "Xcode", id: 497799835
+vscode "alefragnani.bookmarks"
+vscode "britesnow.vscode-toggle-quotes"
+vscode "chakrounanas.turbo-console-log"
+vscode "dart-code.dart-code"
+vscode "dart-code.flutter"
+vscode "dbaeumer.vscode-eslint"
+vscode "doggy8088.quicktype-refresh"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "expo.vscode-expo-tools"
+vscode "firsttris.vscode-jest-runner"
+vscode "formulahendry.auto-close-tag"
+vscode "google.arb-editor"
+vscode "graphql.vscode-graphql"
+vscode "graphql.vscode-graphql-execution"
+vscode "graphql.vscode-graphql-syntax"
+vscode "gruntfuggly.todo-tree"
+vscode "herrmannplatz.npm-dependency-links"
+vscode "hzgood.dart-data-class-generator"
+vscode "jeroen-meijer.pubspec-assist"
+vscode "johnpapa.vscode-peacock"
+vscode "mikestead.dotenv"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "oderwat.indent-rainbow"
+vscode "pkief.material-icon-theme"
+vscode "pmneo.tsimporter"
+vscode "pnp.polacode"
+vscode "redhat.vscode-xml"
+vscode "ritwickdey.liveserver"
+vscode "robert-brunhage.flutter-riverpod-snippets"
+vscode "simonsiefke.svg-preview"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "usernamehw.errorlens"
