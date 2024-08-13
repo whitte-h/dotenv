@@ -97,12 +97,9 @@ mas "DaVinci Resolve", id: 571213070
 mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
 mas "Hidden Bar", id: 1452453066
-mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "Numbers", id: 409203825
 mas "Okta Verify", id: 490179405
 mas "Overlap", id: 1516950324
-mas "Pages", id: 409201541
 mas "Red Lines Tools", id: 1469400117
 mas "Transporter", id: 1450874784
 mas "Xcode", id: 497799835
