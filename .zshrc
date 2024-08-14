@@ -30,14 +30,8 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias awslocal="aws --endpoint-url=http://localhost:4566"
-
-
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(fnm env --use-on-cd)"
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
